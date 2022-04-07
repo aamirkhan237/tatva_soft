@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <hr id="top" />
+    <div id="topimg">
+        <img src="logo.png" id="logo" />
+        <div id="topright">
+            <p id="text">
+                <a href="login.html" id="login">Login </a> |
+                <a href="register.html" id="login">Register</a>
+                <button onclick="window.location.href='cartpage.html'" style="
+               font-size: 24px;
+               background-color: white;
+               font-family: 'Roboto', sans-serif;
+               margin-left: 10px;
+               border-radius: 5px;
+               padding: 5px;
+               width: 100px;
+               border: 1px solid rgb(65, 65, 65);
+             ">
+                    <i class="fa fa-shopping-cart" style="font-size: 24px; color: #f14d54; background-color: white"
+                        id="cart">
+                        Cart</i>
+                </button>
+            </p>
+        </div>
+    </div>
+    <div id="greybar">
+        <form class="example" style="margin: auto">
+            <input type="text" placeholder="What are you looking for..." style="font-style: italic" id="search2" />
+            <button type="submit" id="submit" class="button">
+                <i class="fa fa-search button"></i>Search
+            </button>
+            <button type="cancel" id="cancel">Cancel</button>
+        </form>
+    </div>
+    <div id="title">
+        <h1 id="titletext">Product Page</h1>
+        <hr id="redline" />
+    </div>
+    <div id="searchbar">
+        <form class="prodsearch">
+            <input type="text" placeholder="Search items...." style="font-style: italic" id="search3" />
+            <button type="cancel" id="cancel">Add Product</button>
+        </form>
+    </div>
+    <table>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Data Source</th>
+        <th>Query</th>
+        <th></th>
+        <th></th>
+
+        <tr>
+            <td>12</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 1</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 2</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>24</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 2</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>16</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 1</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>21</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 2</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>23</td>
+            <td>IBSM Followup</td>
+            <td>Data Source 2</td>
+            <td>Test</td>
+            <td id="editbtn">
+                <button id="edit" onclick="window.location.href='editproduct.html'">
+                    Edit
+                </button>
+            </td>
+            <td id="delbtn"><button id="del">Delete</button></td>
+        </tr>
+    </table>
+    <div id="rowsper">
+        <p id="bottomtext">Rows per Page :</p>
+        <select name="rowsperpage" id="rowsperpage">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+        </select>
+        <p id="bottomtext">1 - 5 of 6</p>
+        <i class="fa fa-angle-left" id="left"></i>
+        <i class="fa fa-angle-right" id="right"></i>
+    </div>
+    <div class="footer">
+        <img src="output-onlinepngtools.png" id="blogo" />
+        <p id="copyright">© 2015 Tatvasoft.com. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

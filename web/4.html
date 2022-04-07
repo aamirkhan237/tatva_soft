@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <hr id="top" />
+    <div id="topimg">
+        <img src="logo.png" id="logo" />
+        <div id="topright">
+            <p id="text">
+                <a href="login.html" id="login">Login </a> |
+                <a href="register.html" id="login">Register</a>
+                <button onclick="window.location.href='cartpage.html'" style="
+               font-size: 24px;
+               background-color: white;
+               font-family: 'Roboto', sans-serif;
+               margin-left: 10px;
+               border-radius: 5px;
+               padding: 5px;
+               width: 100px;
+               border: 1px solid rgb(65, 65, 65);
+             ">
+                    <i class="fa fa-shopping-cart" style="font-size: 24px; color: #f14d54; background-color: white"
+                        id="cart">
+                        Cart</i>
+                </button>
+            </p>
+        </div>
+    </div>
+    <div id="greybar">
+        <form class="example" style="margin: auto">
+            <input type="text" placeholder="What are you looking for..." style="font-style: italic" id="search2" />
+            <button type="submit" id="submit" class="button">
+                <i class="fa fa-search button"></i>Search
+            </button>
+            <button type="cancel" id="cancel">Cancel</button>
+        </form>
+    </div>
+    <div id="title">
+        <h1 id="titletext">Edit Product</h1>
+        <hr id="redline" />
+    </div>
+    <div id="personal">
+        <div id="customers">
+            <div class="column">
+                <label for="fname" id="list"><b>First Name *</b></label>
+                <input type="text" name="fname" id="fname" required />
+            </div>
+            <div class="column">
+                <label for="lname" id="list"><b>Last Name *</b></label>
+                <input type="text" name="lname" id="lname" required />
+            </div>
+        </div>
+        <div id="customer">
+            <div class="column">
+                <label for="fname" id="list"><b>Shop by Categories</b></label>
+                <input type="text" id="lname" list="books" />
+                <datalist id="books">
+                    <option>Educational</option>
+                    <option>Thriller</option>
+                    <option>Comedy</option>
+                    <option>Action</option>
+                </datalist>
+            </div>
+            <div class="column">
+                <label for="lname" id="list"><b>Description</b></label>
+                <input type="text" name="lname" id="lname" />
+            </div>
+        </div>
+        <div id="mail">
+            <input type="file" id="myfile" name="myfile" />
+            <div id="upload">
+                <button type="submit" id="submit" class="button">Save</button>
+                <button type="cancel" id="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="output-onlinepngtools.png" id="blogo" />
+        <p id="copyright">© 2015 Tatvasoft.com. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

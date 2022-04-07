@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="7.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <hr id="top" />
+    <div id="topimg">
+        <img src="logo.png" id="logo" />
+        <div id="topright">
+            <p id="text">
+                <a href="login.html" id="login">Login </a> |
+                <a href="register.html" id="login">Register</a>
+                <button onclick="window.location.href='cartpage.html'" style="
+               font-size: 24px;
+               background-color: white;
+               font-family: 'Roboto', sans-serif;
+               margin-left: 10px;
+               border-radius: 5px;
+               padding: 5px;
+               width: 100px;
+               border: 1px solid rgb(65, 65, 65);
+             ">
+                    <i class="fa fa-shopping-cart" style="font-size: 24px; color: #f14d54; background-color: white"
+                        id="cart">
+                        Cart</i>
+                </button>
+            </p>
+        </div>
+    </div>
+    <div id="greybar">
+        <form class="example" style="margin: auto">
+            <input type="text" placeholder="What are you looking for..." style="font-style: italic" id="search2" />
+            <button type="submit" id="submit" class="button">
+                <i class="fa fa-search button"></i>Search
+            </button>
+            <button type="cancel" id="cancel">Cancel</button>
+        </form>
+    </div>
+    <div id="title">
+        <h1 id="titletext">Cart Page</h1>
+        <hr id="redline" />
+    </div>
+    <div id="personal">
+        <div id="prodname">
+            <b>
+                <p style="font-size: 18px">My Shopping Bag (3 Items)</p>
+            </b>
+        </div>
+        <div id="sortby">
+            <b>
+                <p style="font-size: 15px; margin-top: 23px">Total Price: 3000</p>
+            </b>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row">
+            <div class="card">
+                <img src="book1.png" alt="Denim Jeans" style="width: 150px; height: 150px" />
+                <div class="super">
+                    <div class="between">
+                        <p class="lorem imageleft">Campus Sutra</p>
+                        <p class="price2 imageleft">500</p>
+                    </div>
+                    <div class="between">
+                        <p style="color: #f14d54" class="imageright">Cart Item Name</p>
+                        <p class="price imageright">
+                            <strike> 1000</strike> <b style="color: #f14d54"> 50% off</b>
+                        </p>
+                    </div>
+                    <div class="between">
+                        <div class="quant">
+                            <p style="width: 30px">
+                                <i class="fa fa-plus" id="plus"></i>
+                            </p>
+                            <p class="onebutt">1</p>
+                            <p style="width: 30px">
+                                <i class="fa fa-minus" id="plus"></i>
+                            </p>
+                        </div>
+                        <div id="remove">
+                            <button id="remo">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <img src="book1.png" alt="Denim Jeans" style="width: 150px; height: 150px" />
+                <div class="super">
+                    <div class="between">
+                        <p class="lorem imageleft">Campus Sutra</p>
+                        <p class="price2 imageleft">500</p>
+                    </div>
+                    <div class="between">
+                        <p style="color: #f14d54" class="imageright">Cart Item Name</p>
+                        <p class="price imageright">
+                            <strike> 1000</strike> <b style="color: #f14d54"> 50% off</b>
+                        </p>
+                    </div>
+                    <div class="between">
+                        <div class="quant">
+                            <p style="width: 30px">
+                                <i class="fa fa-plus" id="plus"></i>
+                            </p>
+                            <p class="onebutt">1</p>
+                            <p style="width: 30px">
+                                <i class="fa fa-minus" id="plus"></i>
+                            </p>
+                        </div>
+                        <div id="remove">
+                            <button id="remo">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="book1.png" alt="Denim Jeans" style="width: 150px; height: 150px" />
+                <div class="super">
+                    <div class="between">
+                        <p class="lorem imageleft">Campus Sutra</p>
+                        <p class="price2 imageleft">500</p>
+                    </div>
+                    <div class="between">
+                        <p style="color: #f14d54" class="imageright">Cart Item Name</p>
+                        <p class="price imageright">
+                            <strike> 1000</strike> <b style="color: #f14d54"> 50% off</b>
+                        </p>
+                    </div>
+                    <div class="between">
+                        <div class="quant">
+                            <p style="width: 30px">
+                                <i class="fa fa-plus" id="plus"></i>
+                            </p>
+                            <p class="onebutt">1</p>
+                            <p style="width: 30px">
+                                <i class="fa fa-minus" id="plus"></i>
+                            </p>
+                        </div>
+                        <div id="remove">
+                            <button id="remo">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="book1.png" alt="Denim Jeans" style="width: 150px; height: 150px" />
+                <div class="super">
+                    <div class="between">
+                        <p class="lorem imageleft">Campus Sutra</p>
+                        <p class="price2 imageleft">500</p>
+                    </div>
+                    <div class="between">
+                        <p style="color: #f14d54" class="imageright">Cart Item Name</p>
+                        <p class="price imageright">
+                            <strike> 1000</strike> <b style="color: #f14d54"> 50% off</b>
+                        </p>
+                    </div>
+                    <div class="between">
+                        <div class="quant">
+                            <p style="width: 30px">
+                                <i class="fa fa-plus" id="plus"></i>
+                            </p>
+                            <p class="onebutt">1</p>
+                            <p style="width: 30px">
+                                <i class="fa fa-minus" id="plus"></i>
+                            </p>
+                        </div>
+                        <div id="remove">
+                            <button id="remo">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <button id="create">Place Order</button>
+    </div>
+    <div class="footer">
+        <img src="output-onlinepngtools.png" id="blogo" />
+        <p id="copyright">© 2015 Tatvasoft.com. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

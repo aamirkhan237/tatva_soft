@@ -1,0 +1,252 @@
+.header_red_line{
+    background-color: #f14d54;
+    height: 10px;
+    margin: -10px -8px 20px;
+    padding: 0;
+}
+.tatva_logo{
+    width: 220px;
+    height: 55px;
+}
+
+.paras{
+    display: flex;
+}
+.logo{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+    height: 92px;
+
+}
+.p_login{
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #f14d54;
+    
+}
+
+.anchor_login{
+    text-decoration: none;
+}
+.fa-shopping-cart{
+    color: #f14d54;
+}
+.zero{
+    color: #f14d54;
+}
+.cart-elements{
+    margin: 5px;
+}
+
+.cart{
+    /* border: 1px solid rgb(141, 131, 131); */
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    margin: 5px 20px;
+}
+.search{
+    background-color: rgb(236, 236, 236);
+    height: 80px;
+    width: 100%;
+}
+
+
+.paras-cart{
+    display: flex;
+}
+
+#waylf{
+    width: 422px;
+    height: 40px;
+    margin: 20px;
+}
+
+.search-bar{
+    display: flex;
+    margin: auto;
+    width: 600px;
+    margin-right: 550px;
+}
+
+.search-btn{
+    height: 40px;
+    width: 129px;
+    margin: auto 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #80BF32;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    height: 40px;
+    width: 129px;
+    margin: auto 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f14d54;
+    color: white;
+    cursor: pointer;
+}
+.form input{
+    border: none;
+    padding: 0 10px;
+}
+.form{
+    display: flex;
+}
+
+.btns{
+    margin: auto 15px;
+}
+
+.ftr{
+    width: 100%;
+    height: 200px;
+}
+
+.logo-logo{
+    margin-left: 100px;
+}
+
+.ftr{
+    background-color: rgb(236, 236, 236);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.grey-color{
+    color: grey;
+}
+
+.home-login{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.home_login{
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(134, 129, 129);
+}
+
+.log-in{
+    color: #f14d54;
+}
+
+.p_home_login{
+    font-size: 20px
+}
+
+.heading{
+    text-align: center;
+}
+.h1-heading{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.red-line{
+    color: #f14d54;
+}
+
+.customers{
+    margin-top: 50px;
+}
+
+.fifty{
+    width: 50%;
+}
+
+.registered-customer{
+    width: 45%;
+}
+
+.new-customer{
+    width: 45%;
+    margin-left: 200px;
+}
+
+.small-width{
+    width: 150px;
+}
+
+.customer{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
+}
+
+.grey-line{
+    color: #fff5f5;
+}
+
+.new-registeration{
+    color: #838383;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.n-165{
+    height: 133px;
+}
+
+.create-button{
+    width: 220px;
+    height: 45px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: #f14d54;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.create-text{
+    max-width: 1200px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+}
+
+.n-80{
+    height: 80px;
+}
+
+.customers{
+    display: flex;
+}
+
+.form-input{
+    height: 25px;
+    width: 350px;
+}
+
+.n-60{
+    height: 60px;
+}
+
+#login-button{
+    width: 100px;
+    height: 45px;
+}
+
+.cart-btn{
+    cursor: pointer;
+    background-color: white;
+    border: 0.5px solid rgb(170, 168, 168);
+    border-radius: 5px;
+}

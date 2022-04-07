@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <hr id="top" />
+    <div id="topimg">
+        <img src="logo.png" id="logo" />
+        <div id="topright">
+            <p id="text">
+                <a href="login.html" id="login">Login </a> |
+                <a href="register.html" id="login">Register</a>
+                <button onclick="window.location.href='cartpage.html'" style="
+               font-size: 24px;
+               background-color: white;
+               font-family: 'Roboto', sans-serif;
+               margin-left: 10px;
+               border-radius: 5px;
+               padding: 5px;
+               width: 100px;
+               border: 1px solid rgb(65, 65, 65);
+             ">
+                    <i class="fa fa-shopping-cart" style="font-size: 24px; color: #f14d54; background-color: white"
+                        id="cart">
+                        Cart</i>
+                </button>
+            </p>
+        </div>
+    </div>
+    <div id="greybar">
+        <form class="example" style="margin: auto">
+            <input type="text" placeholder="What are you looking for..." style="font-style: italic" id="search2" />
+            <button type="submit" id="submit" class="button">
+                <i class="fa fa-search button"></i>Search
+            </button>
+            <button type="cancel" id="cancel">Cancel</button>
+        </form>
+    </div>
+    <div id="navarr">
+        <p>
+            <a href="bookesell.html" id="home">Home</a>
+            <i class="fa fa-angle-right" id="right"></i>
+            <a href="login.html" id="login">Login</a>
+        </p>
+    </div>
+    <div id="title">
+        <h1 id="titletext">Login or Create an Account</h1>
+        <hr id="redline" />
+    </div>
+    <div id="customers">
+        <div class="column">
+            <h2 id="titletext2">New Customer</h2>
+            <hr id="undertitle" />
+            <p id="underhr">Registeration is free and easy.</p>
+            <ul id="list">
+                <li>Faster checkout</li>
+                <li>Save multiple shipping addresses</li>
+                <li>View and track orders and more</li>
+            </ul>
+            <button id="create" onclick="window.location.href='register.html'">Create an Account</button>
+        </div>
+        <div class="column">
+            <h2 id="titletext2">Registered customers</h2>
+            <hr id="undertitle" />
+            <p id="underhr">If you have an account with us, please log in.</p>
+            <label for="email" id="list"><b>Email Address *</b></label><br />
+            <input type="text" name="email" id="email" required /><br /><br />
+            <label for="psw" id="list"><b>Password *</b></label><br />
+            <input type="password" name="psw" id="psw" required /><br /><br />
+            <button type="submit" id="loginbtn">Login</button>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="output-onlinepngtools.png" id="blogo" />
+        <p id="copyright">© 2015 Tatvasoft.com. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

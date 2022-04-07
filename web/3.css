@@ -1,0 +1,301 @@
+#top {
+    height: 22px;
+    background-color: #da454d;
+    border: none;
+    margin: -14px -6px 22px;
+  }
+  #logo {
+    width: 222px;
+    height: 57px;
+    margin-left: 55px;
+  }
+  #topimg {
+    display: flex;
+    justify-content: space-between;
+  }
+  #topright {
+    margin-right: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+  #text {
+    color: #f14d54;
+    font: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  #greybar {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+  }
+ 
+  #submit {
+    margin-left: 20px;
+    width: 129px;
+    background: #80bf32;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+ 
+  .example {
+    display: flex;
+    flex-direction: row;
+  }
+  #cancel {
+    margin-left: 5px;
+    width: 129px;
+    background: #f14d54;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+  #search2 {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 500px;
+    background: white;
+    border-radius: 5px;
+  }
+  .button {
+    margin: 0 5px;
+  }
+  #cart {
+    cursor: pointer;
+  }
+  .footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    color: white;
+    text-align: center;
+    height: 186px;
+  }
+  #blogo {
+    width: 220px;
+    height: 55px;
+    margin-top: 50px;
+  }
+  #copyright {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 15px;
+  }
+  #login {
+    text-decoration: none;
+    color: #f14d54;
+    font: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  #navarr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #home {
+    text-decoration: none;
+    color: black;
+    font: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+ 
+  #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #titletext {
+    color: #414141;
+    font: 32px;
+    font-family: "Roboto", sans-serif;
+    margin: none;
+    text-align: center;
+  }
+  #customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #titletext2 {
+    color: #414141;
+    font: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  .column {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  #undertitle {
+    margin-top: 20px;
+    width: 150%;
+  }
+  #underhr {
+    color: #838383;
+    font: 15px;
+    font-family: "Roboto", sans-serif;
+    overflow: visible;
+    white-space: nowrap;
+  }
+  #list {
+    color: #212121;
+    font: 15px;
+    font-family: "Roboto", sans-serif;
+    overflow: visible;
+    white-space: nowrap;
+  }
+  #create {
+    width: 220px;
+    height: 45px;
+    background: #f14d54;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 128px;
+  }
+  #email {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 500px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  #psw {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 500px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  #loginbtn {
+    width: 100px;
+    height: 45px;
+    background: #f14d54;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  #redline {
+    border-color: #f14d54;
+    width: 150px;
+  }
+  #hgt {
+    height: 32px;
+  }
+  table {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+  }
+  td {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  tr {
+    height: 64px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+  }
+  #edit {
+    width: 80px;
+    background: white;
+    color: #80bf32;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #80bf32;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+  #del {
+    width: 80px;
+    background: white;
+    color: #f14d54;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #f14d54;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+  #editbtn {
+    width: 100px;
+  }
+  #delbtn {
+    width: 100px;
+  }
+  #searchbar{
+      text-align:right; 
+      margin:0px auto 0px auto;
+      margin-right: 200px;
+      margin-top: 25px;
+  }
+  #search3 {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid grey;
+      width: 300px;
+      background: white;
+      border-radius: 5px;
+    }
+  #rowsper{
+      display: flex;
+      flex-direction: row;
+      text-align: right;
+      justify-content:right;
+      margin-right: 200px;
+  }
+  #rowsperpage{
+      height: 30px;
+      margin-top: 24px;
+      margin-left : -15px
+ 
+  }  
+  #right {
+      size: 20px;
+      color: rgb(0, 0, 0);
+      width: 20px;
+      height: 20px;
+      margin-top: 28px;
+    }
+  #left {
+      size: 20px;
+      color: rgb(189, 189, 189);
+      margin-top: 28px;
+      width: 20px
+  }
+  #bottomtext {
+      color: #212121;
+      font: 10px;
+      font-family: "Roboto", sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 28px;
+    } 
